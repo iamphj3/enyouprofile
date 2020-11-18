@@ -123,23 +123,25 @@ input:checked ~ #poster {
 #content2 > .c2 > .b1 {
 	position: absolute;
 	left: 15%;
-	top : 95%;	
+	top : 65%;	
 	color: #23b8bc;
 	font-size: 30px;
 	font-family: 'Yeon Sung', sans-serif;
 	background-color: white;
+	border-radius: 0.4em;
 }
 #content2 > .c2 > .b2 {
 	position: absolute;
 	right: 15%;
-	top : 95%;
+	top : 65%;
 	color: #23b8bc;
 	font-size: 30px;
 	font-family: 'Yeon Sung', sans-serif;
 	background-color: white;
+	border-radius: 0.4em;
 }
 #content2 > .c2 > .s1 {
-	width : 100%;
+	width : 90%;
 	margin: 0 auto;
 }
 #content2 > .c2 > .s2 {
