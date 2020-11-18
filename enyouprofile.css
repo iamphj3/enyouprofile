@@ -4,5 +4,500 @@ html{
 * {
 	margin: 0;
 	padding: 0; 
-	background-color: white;
+}
+body { 
+	width: 960px;
+	margin: 0 auto;
+}
+
+#box1 {
+	display: table;
+	width: 100%; height: 100%;
+	font-family: 'Abril Fatface', cursive;	
+}
+#box1 > a {
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+	width: 280px;
+	margin: 170px 340px 0 340px;
+}
+
+#box2 {
+	font-family: 'Noto Sans KR', sans-serif;
+	text-align: center;
+}
+h1 {
+	text-align: center;
+	font-size: 30px;
+}
+
+footer {
+	font-family: 'Manrope', sans-serif;
+	font-size : 14px;
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+section {
+
+	width: 100%;
+	height: 100%;
+    display: none;
+    padding: 40px 0 0;
+    border-top: 1px;}
+
+input {
+	display: none;}
+
+label {
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 15px 25px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    border: 1px solid transparent;}
+
+label:hover {
+    color: #bbb;
+    cursor: pointer;}
+     
+input:checked +label {
+    color: skyblue;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5 {
+    display: block;}
+
+#content1 {
+	width: 100%;
+	height: 100%;
+	margin-top: 180px; 
+}
+
+#content1 > .c1 {
+	width: 600px;
+	margin: 20px auto;
+	border-style: solid;
+	border-color: #bbb;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+#content1 > .c1 > img {
+	text-align: center;
+	width: 580px;
+}
+#content1 > .c1 > p {
+	font-size: 19px;
+	margin: 10px 0 10px 0;
+}
+#content2 {
+	width: 900px;
+	height: 920px;
+	background-color: #87ABCB;
+	margin: 180px auto 0 auto;
+
+}
+
+#content2 > .c2 {
+	width: 43%;
+	height: 870px;
+	margin: 0 0 0 30px;
+	padding: 15px 0 0 20px;
+	float: left;
+	background-color: #F6F9FB;	
+	text-align: left;
+}
+
+#content2 > .c2 > h2 {
+	font-family: 'Jua', sans-serif;
+	font-size: 45px;
+	color: #4375DB;
+}
+
+#content2 > .c2 > p {
+	width: 405px;
+	height: 870px;
+	font-family: 'Jua', sans-serif;
+	font-size: 23px;
+}
+
+#content2 > .c2-side {
+	width: 43%;
+	height: 870px;
+	margin: 0 30px 0 0;
+	padding: 15px 0 0 20px;
+	float: right;
+	background-color: #F6F9FB;
+	text-align: left;
+}
+
+#content2 > .c2-side > p {
+	width: 405px;
+	height: 870px;
+	font-family: 'Jua', sans-serif;
+	font-size: 23px;
+}
+
+#content3 {
+	width: 960px;
+	height: 2500px;
+
+	background-color: #F6F9FB;
+	background-position: center;
+	margin: 180px auto 0 auto;
+	font-family: 'Jua', sans-serif;
+}
+
+#content3 > .c3 > h1 {
+	font-size: 67px;
+	color: #778899;
+}
+#content3 > .c3 > p {
+	font-size: 18px;
+	float: right;
+	margin: 15px;
+}
+#content3 > .c3 > h2 {
+	font-size: 47px;
+}
+#content3 > .c3-1 > img {
+	width: 430px;
+	margin: 20px;
+}
+#content3 > .c3-2 > h2 {
+	font-size: 35px;
+	margin: 20px;
+	background-color: #778899;
+}
+#content3 > .c3-3 > img {
+	width: 550px;
+	margin: 20px;
+}
+#content3 > .c3-3 > h2 {
+	font-size: 35px;
+}
+#content3 > .c3-4 > img {
+	width: 350px;
+	margin: 20px;
+}
+
+#content3 > .c3-4 > h2 {
+	font-size: 35px;
+}
+#content3 > .c3-5 {
+	width: 100%;
+	padding-bottom:15px;
+	margin-bottom: 30px;
+}
+#content3 > .c3-5 > h2 {
+	font-size: 35px;
+}
+#content3 > .c3-5 > img {
+	width: 600px;
+	margin: 20px auto;
+}
+
+#content3 > .c3-1 {
+	width: 45%;
+	float: left;
+	margin: 10px;
+}
+#content3 > .c3-2 {
+	font-size: 25px;
+	width: 50%;
+	float: left;
+	margin-left: 10px; 
+
+}
+#content3 > .c3-3 {
+	font-size: 24px;
+	width: 60%;
+	float: left;
+	background-color: #f0f8ff;
+}
+#content3 > .c3-4 {
+	font-size: 22px;
+	width: 40%;
+	float: left;
+	background-color: #add8e6;
+}
+#content3 > .c3-5 {
+	font-size: 25px;
+	float: left;
+	width: 96%;
+	margin: 20px;
+	background-color: #e6e6fa;
+	background-position: center;
+}
+#content4 {
+	width: 800px;
+	height: 500px;
+	text-align: center;
+	background-image: url(family2.png);
+	background-size: 800px;
+	background-position: center;
+	margin: 30px auto;
+	padding: 0;
+}
+
+#content4 > .c4 {
+
+	width: 400px;
+	height: 60px;
+	margin: 180px auto 30px auto;
+	font-size: 40px;
+	font-family: 'Jua', sans-serif;
+	color: #4375DB;
+	background-color: #F6F9FB;
+
+}
+#content4 > .c4-end {
+
+	width: 400px;
+	height: 60px;
+	margin: 40px auto;
+	font-size: 20px;
+	font-family: 'Jua', sans-serif;
+
+}
+
+#content4 > .c4-1 {
+	float: left;
+	width: 33%
+}
+
+#content4 > .c4-2 {
+	float: left;
+	width: 33%
+}
+
+#content4 > .c4-3 {
+	float: left;
+	width: 33%
+}
+
+#content4 > .c4-1 > .button {
+  height: 200px;
+  width: 200px;
+  vertical-align:middle;
+  cursor:pointer;
+  margin-top: 100px 0 100px 0;
+}
+
+/* 모달 윈도우 디자인 */
+#content4 > .c4-1 > .box_modal {
+  margin: 0 auto 0 auto;
+  position:fixed;
+  display:block;
+  width:700px;
+  height:450px;
+  top:25%;
+  left:25%;
+  right:25%;
+  bottom:25%; 
+  background:#F6F9FB;
+  border:3px solid #87ABCB;
+  border-radius: 30px;
+  overflow:hidden;
+  opacity: 1;
+  visibility: collapse;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  -webkit-transform: scale(0, 0);
+  -ms-transform: scale(0, 0);
+  transform: scale(0, 0);
+}
+
+#content4 > .c4-1 > .box_modal > .closer {
+  position:absolute;
+  width:30px;
+  height:30px;
+  top:0;
+  right:0;
+  background:#eee;
+  border-left:3px solid #87ABCB;
+  border-bottom:3px solid #87ABCB;
+  text-align:center;
+  line-height:26px;
+  font-size:30px;
+  cursor:pointer;
+}
+#content4 > .c4-1 > .box_modal > .text {
+  display:inline-block;
+  padding: 20px;
+  font-family: 'Jua', sans-serif;
+}
+#content4 > .c4-1 > .box_modal > .text > h3 {
+	font-size: 35px;
+	color: #4375DB;
+	margin-bottom: 10px;
+}
+#content4 > .c4-1 > .box_modal > .text > p {
+  font-size: 20px;
+}
+
+#content4 > .c4-2 > .button {
+  font-size:19px;
+  height: 200px;
+  width: 200px;
+  vertical-align:middle;
+  cursor:pointer;
+  margin-top: 100px 0 100px 0;
+}
+
+#content4 > .c4-2 > .box_modal {
+  margin: 0 auto 0 auto;
+  position:fixed;
+  display:block;
+  width:700px;
+  height:450px;
+  top:25%;
+  left:25%;
+  right:25%;
+  bottom:25%; 
+  background:#F6F9FB;
+  border:3px solid #87ABCB;
+  border-radius: 30px;
+  overflow:hidden;
+  opacity: 1;
+  visibility: collapse;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  -webkit-transform: scale(0, 0);
+  -ms-transform: scale(0, 0);
+  transform: scale(0, 0);
+}
+
+#content4 > .c4-2 > .box_modal > .closer {
+  position:absolute;
+  width:30px;
+  height:30px;
+  top:0;
+  right:0;
+  background:#eee;
+  border-left:3px solid #87ABCB;
+  border-bottom:3px solid#87ABCB;
+  text-align:center;
+  line-height:26px;
+  font-size:30px;
+  cursor:pointer;
+}
+#content4 > .c4-2 > .box_modal > .text {
+  display:inline-block;
+  padding: 20px;
+  font-family: 'Jua', sans-serif;
+}
+#content4 > .c4-2 > .box_modal > .text > h3 {
+	font-size: 35px;
+	color: #4375DB;
+	margin-bottom: 10px;
+}
+#content4 > .c4-2 > .box_modal > .text > p {
+  font-size: 20px;
+}
+
+#content4 > .c4-3 > .button {
+  height: 200px;
+  width: 200px;
+  vertical-align:middle;
+  cursor:pointer;
+  margin: 100px 0 100px 0;
+}
+
+#content4 > .c4-3 > .box_modal {
+  margin: 0 auto 0 auto;
+  position:fixed;
+  display:block;
+  width:700px;
+  height:450px;
+  top:25%;
+  left:25%;
+  right:25%;
+  bottom:25%; 
+  background:#F6F9FB;
+  border:3px solid #87ABCB;
+  border-radius: 30px;
+  overflow:hidden;
+  opacity: 1;
+  visibility: collapse;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  -webkit-transform: scale(0, 0);
+  -ms-transform: scale(0, 0);
+  transform: scale(0, 0);
+}
+
+#content4 > .c4-3 > .box_modal > .closer {
+  position:absolute;
+  width:30px;
+  height:30px;
+  top:0;
+  right:0;
+  background:#eee;
+  border-left:3px solid #87ABCB;
+  border-bottom:3px solid #87ABCB;
+  text-align:center;
+  line-height:26px;
+  font-size:30px;
+  cursor:pointer;
+}
+#content4 > .c4-3 > .box_modal > .text {
+  display:inline-block;
+  padding: 20px;
+  font-family: 'Jua', sans-serif;
+}
+#content4 > .c4-3 > .box_modal > .text > h3 {
+	font-size: 35px;
+	color: #4375DB;
+	margin-bottom: 10px;
+}
+#content4 > .c4-3 > .box_modal > .text > p {
+	font-size: 20px;
+}
+
+input#modal1[type=checkbox]:checked ~ .box_modal {
+  visibility: visible;
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+
+input#modal2[type=checkbox]:checked ~ .box_modal {
+  visibility: visible;
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+
+input#modal3[type=checkbox]:checked ~ .box_modal {
+  visibility: visible;
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+
+
+#top {
+	display: scroll;
+	position: fixed;
+	bottom: 30px;
+	right: 200px;
+	text-decoration: none;
+}
+
+#link {
+	width: 100%;
+}
+
+
+#link > .instagram > a > img{
+	display: block;
+	margin: 100px auto 0 auto;
+	text-align: center;
+	width: 35px;
 }
