@@ -123,21 +123,19 @@ input:checked ~ #poster {
 #content2 > .c2 > .b1 {
 	position: absolute;
 	left: 15%;
-	top : 65%;	
-	color: #23b8bc;
+	color: white;
 	font-size: 30px;
 	font-family: 'Yeon Sung', sans-serif;
-	background-color: white;
+	background-color: #23b8bc;
 	border-radius: 0.4em;
 }
 #content2 > .c2 > .b2 {
 	position: absolute;
 	right: 15%;
-	top : 65%;
-	color: #23b8bc;
+	color: white;
 	font-size: 30px;
 	font-family: 'Yeon Sung', sans-serif;
-	background-color: white;
+	background-color: #23b8bc;
 	border-radius: 0.4em;
 }
 #content2 > .c2 > .s1 {
@@ -164,13 +162,6 @@ input:checked ~ #poster {
 
 #content4 > .c4 {
 
-	width: 400px;
-	height: 60px;
-	margin: 180px auto 30px auto;
-	font-size: 40px;
-	font-family: 'Jua', sans-serif;
-	color: #4375DB;
-	background-color: #F6F9FB;
 
 }
 
@@ -178,18 +169,6 @@ input:checked ~ #poster {
 	display: scroll;
 	position: fixed;
 	bottom: 30px;
-	right: 200px;
+	right: 50%;
 	text-decoration: none;
-}
-
-#link {
-	width: 100%;
-}
-
-
-#link > .instagram > a > img{
-	display: block;
-	margin: 100px auto 0 auto;
-	text-align: center;
-	width: 35px;
 }
