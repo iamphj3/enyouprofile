@@ -122,24 +122,24 @@ input:checked ~ #poster {
 }
 #content2 > .c2 > .b1 {
 	position: absolute;
-	left: 25%;
+	left: 15%;
 	top : 95%;	
-	color: white;
-	font-size: 25px;
+	color: #23b8bc;
+	font-size: 30px;
 	font-family: 'Yeon Sung', sans-serif;
-	background-color: #23b8bc;
+	background-color: white;
 }
 #content2 > .c2 > .b2 {
 	position: absolute;
-	right: 25%;
+	right: 15%;
 	top : 95%;
-	color: white;
-	font-size: 25px;
+	color: #23b8bc;
+	font-size: 30px;
 	font-family: 'Yeon Sung', sans-serif;
-	background-color: #23b8bc;
+	background-color: white;
 }
 #content2 > .c2 > .s1 {
-	/*width: 80%;*/
+	width : 100%;
 	margin: 0 auto;
 }
 #content2 > .c2 > .s2 {
