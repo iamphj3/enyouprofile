@@ -36,7 +36,7 @@ body {
 #box2 {
 	/*width: 97%;*/
 	margin: 0 auto;
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'Yeon Sung', sans-serif;
 	text-align: center;
 	background-color: white;
 }
@@ -110,16 +110,16 @@ input:checked ~ #poster {
 
 #content2 {
 	margin: 0 auto;
-
+	padding-bottom: 30px;
 }
 
-#content2 > p{
+#content2 > h1{
 	font-size: 35px;
 	font-family: 'Yeon Sung', sans-serif;
 }
 
 #content2 > .c2 {
-
+	padding-top: 20px;
 }
 #content2 > .c2 > .b1 {
 	position: absolute;
@@ -156,29 +156,33 @@ input:checked ~ #poster {
 	color: #778899;
 }
 #content4 {
-	width: 800px;
 	height: 500px;
 	text-align: center;
 	background-size: 800px;
 	background-position: center;
-	margin: 30px auto;
-	padding: 0;
-}
+	margin: 0px auto;
 
+}
+#content4 > h1 {
+	font-size: 30px;
+	padding-top: 30px;
+	text-align: center;
+	margin: 0 auto;
+}
+#content4 > p {
+	font-size: 30px;
+	padding-top: 30px;
+	text-align: center;
+	margin: 0 auto;
+}
 #content4 > .c4 {
 	text-align: center;
 	margin: 0 auto;
+	margin-top: 50px;
 	vertical-align: middle;
 }
 #content4 > .c4 > #epti {
 	text-align: center;
 	margin: 0 auto;    
 	vertical-align: middle;
-}
-#top {
-	display: scroll;
-	position: fixed;
-	bottom: 30px;
-	right: 50%;
-	text-decoration: none;
 }
