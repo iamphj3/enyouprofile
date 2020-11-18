@@ -18,16 +18,16 @@
 	</header>
 
 	<div id="box2">
-	    <input id="tab1" type="radio" name="tabs">
-    	<label for="tab1">후보<br>소개</label>ㆍ
+	    <input id="tab1" type="radio" name="tabs" style="width:20%">
+    	<label for="tab1">후보<br>소개</label>
 
-  	 	<input id="tab2" type="radio" name="tabs">
-    	<label for="tab2">공약 한눈에<br>보기</label>ㆍ
+  	 	<input id="tab2" type="radio" name="tabs" style="width:25%">
+    	<label for="tab2">공약 한눈에<br>보기</label>
 
-	    <input id="tab3" type="radio" name="tabs">
-    	<label for="tab3">영상으로<br>알아보기!</label>ㆍ
+	    <input id="tab3" type="radio" name="tabs" style="width:25%">
+    	<label for="tab3">영상으로<br>알아보기!</label>
 
-	    <input id="tab4" type="radio" name="tabs">
+	    <input id="tab4" type="radio" name="tabs" style="width:25%">
     	<label for="tab4">나에게 맞는<br>공약은?</label>
 
 	    <section id="content1">
@@ -40,7 +40,8 @@
   	    <section id="content2">
             <p>엔유 공약 파헤치기 시리즈!</p>
   	    	<div class="c2">
-
+                <a class="b1" onclick="plusDivs(-1)">이전</a>
+                <a class="b2" onclick="plusDivs(+1)">다음</a>
               
                 <img class="s1" src="s1-1.jpg" style = "display:block;">
                 <img class="s1" src="s1-2.jpg" style = "display:none;">
@@ -52,8 +53,6 @@
                 <img class="s1" src="s2-3.jpg" style = "display:none;">
                 <img class="s1" src="s2-4.jpg" style = "display:none;">
                 
-                <a class="b1" onclick="plusDivs(-1)">이전</a>
-                <a class="b2" onclick="plusDivs(+1)">다음</a>
   	    	</div>
     	</section>
 
