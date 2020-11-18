@@ -1,5 +1,5 @@
 html{
-	width: 80%;
+	width: 97%;
 	margin: 0 auto;
 	background-color: #920783;
 	scroll-behavior: smooth;
@@ -10,7 +10,7 @@ html{
 	padding: 0; 
 }
 header {
-	width: 80%; 
+	width: 97%; 
 	margin: 0 auto;
 	margin-top: 3%;
 }
@@ -27,14 +27,14 @@ body {
 }
 #box1 > a {
 	display: block;
-	max-width: 80%;
+	max-width: 97%;
 	max-height: 100%;
 	width: 280px;
 	margin: 0 auto;
 }
 
 #box2 {
-	width: 80%;
+	width: 97%;
 	margin: 0 auto;
 	font-family: 'Noto Sans KR', sans-serif;
 	text-align: center;
