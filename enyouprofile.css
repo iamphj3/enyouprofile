@@ -124,7 +124,7 @@ input:checked ~ #poster {
 #content2 > .c2 > .b1 {
 	position: absolute;
 	left: 10%;
-	margin-top: 200px;
+	margin-top: 180px;
 	padding: 5px;
 	color: white;
 	font-size: 30px;
@@ -135,7 +135,7 @@ input:checked ~ #poster {
 #content2 > .c2 > .b2 {
 	position: absolute;
 	right: 10%;
-	margin-top: 200px;
+	margin-top: 180px;
 	padding: 5px;
 	color: white;
 	font-size: 30px;
@@ -156,14 +156,13 @@ input:checked ~ #poster {
 	color: #778899;
 }
 #content4 {
-	height: 500px;
+	height: 400px;
 	text-align: center;
 	margin: 0px auto;
 
 }
 #content4 > h1 {
-	font-size: 30px;
-	padding-top: 30px;
+	font-size: 35px;
 	text-align: center;
 	margin: 0 auto;
 }
@@ -176,7 +175,7 @@ input:checked ~ #poster {
 #content4 > .c4 {
 	text-align: center;
 	margin: 0 auto;
-	margin-top: 50px;
+	margin-top: 70px;
 	vertical-align: middle;
 }
 #content4 > .c4 > #epti {
