@@ -158,8 +158,6 @@ input:checked ~ #poster {
 #content4 {
 	height: 500px;
 	text-align: center;
-	background-size: 800px;
-	background-position: center;
 	margin: 0px auto;
 
 }
