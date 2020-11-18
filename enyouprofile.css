@@ -155,6 +155,15 @@ input:checked ~ #poster {
 	/*width: 80%;*/
 	color: #778899;
 }
+video {
+	padding-bottom: 40px;
+}
+#content3 > h1 {
+	font-size: 28px;
+	color: darkgray;
+	text-align: center;
+	margin: 0 auto;
+}
 #content4 {
 	height: 400px;
 	text-align: center;
