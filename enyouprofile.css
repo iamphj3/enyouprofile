@@ -123,8 +123,8 @@ input:checked ~ #poster {
 }
 #content2 > .c2 > .b1 {
 	position: absolute;
-	left: 10%;
-	margin-top: 180px;
+	left: 7%;
+	margin-top: 450px;
 	padding: 5px;
 	color: white;
 	font-size: 25px;
@@ -134,8 +134,8 @@ input:checked ~ #poster {
 }
 #content2 > .c2 > .b2 {
 	position: absolute;
-	right: 10%;
-	margin-top: 180px;
+	right: 7%;
+	margin-top: 450px;
 	padding: 5px;
 	color: white;
 	font-size: 25px;
@@ -146,6 +146,7 @@ input:checked ~ #poster {
 #content2 > .c2 > .s1 {
 	width : 90%;
 	margin: 0 auto;
+	margin-bottom: 50px;
 }
 #content2 > .c2 > .s2 {
 	/*width: 80%;*/
