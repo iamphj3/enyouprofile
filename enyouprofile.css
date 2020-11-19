@@ -124,7 +124,7 @@ input:checked ~ #poster {
 #content2 > .c2 > .b1 {
 	position: absolute;
 	left: 7%;
-	margin-top: 450px;
+	margin-top: 400px;
 	padding: 5px;
 	color: white;
 	font-size: 25px;
@@ -135,7 +135,7 @@ input:checked ~ #poster {
 #content2 > .c2 > .b2 {
 	position: absolute;
 	right: 7%;
-	margin-top: 450px;
+	margin-top: 400px;
 	padding: 5px;
 	color: white;
 	font-size: 25px;
