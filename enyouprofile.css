@@ -101,6 +101,8 @@ input:checked ~ #poster {
 }
 #content1 > .c1 {
 	padding-top: 20px;
+	margin: 0 auto;
+	border-style: none;
 }
 #content1 > h1{
 	font-size: 32px;
@@ -121,9 +123,8 @@ input:checked ~ #poster {
 	font-family: 'Yeon Sung', sans-serif;
 	background-color: #23b8bc;
 	border-radius: 0.4em;
-	top: 50%;
-	margin-top:-120px;
 	display: none;
+	margin-top: 180px;
 }
 #content1 > .c1 > .bt2 {
 	position: absolute;
@@ -134,8 +135,7 @@ input:checked ~ #poster {
 	font-family: 'Yeon Sung', sans-serif;
 	background-color: #23b8bc;
 	border-radius: 0.4em;
-	top: 50%;
-	margin-top:-120px;
+	margin-top: 180px;
 }
 
 #content2 {
@@ -160,9 +160,8 @@ input:checked ~ #poster {
 	font-family: 'Yeon Sung', sans-serif;
 	background-color: #23b8bc;
 	border-radius: 0.4em;
-	top: 50%;
-	margin-top:-120px;
 	display: none;
+	margin-top: 180px;
 }
 #content2 > .c2 > .b2 {
 	position: absolute;
@@ -173,8 +172,7 @@ input:checked ~ #poster {
 	font-family: 'Yeon Sung', sans-serif;
 	background-color: #23b8bc;
 	border-radius: 0.4em;
-	top: 50%;
-	margin-top:-120px;
+	margin-top: 180px;
 }
 #content2 > .c2 > .s1 {
 	width : 90%;
