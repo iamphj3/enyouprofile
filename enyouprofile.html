@@ -4,10 +4,11 @@
     <title>제 46대 공과대학 선거운동본부 엔유[EN,YOU]</title>
     <meta charset="utf-8">
     <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+
     <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&family=Abril+Fatface&family=Dancing+Script&family=Do+Hyeon&family=Jua&family=Manrope:wght@200&family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.js"></script>
-    <script type="text/javascript" src="enyouprofile.js"></script>
 </head>
 <body>
 	<header>
@@ -20,7 +21,7 @@
 
 	<div id="box2">
 	    <input id="tab1" type="radio" name="tabs">
-    	<label for="tab1">후보<br>소개</label>
+    	<label for="tab1">엔유<br>소개</label>
 
   	 	<input id="tab2" type="radio" name="tabs">
     	<label for="tab2">공약<br>보기</label>
@@ -30,10 +31,19 @@
 
 	    <input id="tab4" type="radio" name="tabs">
     	<label for="tab4">공약<br>유형검사</label>
-
+      
 	    <section id="content1">
-	    	<div class="c1">
-	    	  
+            <h1>엔유를 소개합니다!</h1>
+
+	    	<div class="c1" id="c1">
+                <a class="bt1" id = "bt1" onclick="plus(-1) ">이전</a>
+                <a class="bt2" id = "bt2" onclick="plus(+1)">다음</a>
+
+                <img class="s0" src="p1.jpg" style = "display:block;">
+                <img class="s0" src="p2.jpg" style = "display:none;">
+                <img class="s0" src="p3.jpg" style = "display:none;">
+                <img class="s0" src="p4.jpg" style = "display:none;">
+                <img class="s0" src="p5.jpg" style = "display:none;">
 	    	</div>
     	</section>
 
@@ -41,8 +51,8 @@
   	    <section id="content2">
             <h1>엔유 공약 파헤치기 시리즈!</h1>
   	    	<div class="c2">
-                <a class="b1" onclick="plusDivs(-1)">이전</a>
-                <a class="b2" onclick="plusDivs(+1)">다음</a>
+                <a class="b1" id = "b1" onclick="plusDivs(-1) ">이전</a>
+                <a class="b2" id = "b2" onclick="plusDivs(+1)">다음</a>
               
                 <img class="s1" src="s1-1.jpg" style = "display:block;">
                 <img class="s1" src="s1-2.jpg" style = "display:none;">
@@ -53,11 +63,18 @@
                 <img class="s1" src="s2-2.jpg" style = "display:none;">
                 <img class="s1" src="s2-3.jpg" style = "display:none;">
                 <img class="s1" src="s2-4.jpg" style = "display:none;">
+                <img class="s1" src="s2-5.jpg" style = "display:none;">
 
                 <img class="s1" src="s3-1.jpg" style = "display:none;">
                 <img class="s1" src="s3-2.jpg" style = "display:none;">
                 <img class="s1" src="s3-3.jpg" style = "display:none;">
                 <img class="s1" src="s3-4.jpg" style = "display:none;">
+
+                <img class="s1" src="s4-1.jpg" style = "display:none;">
+                <img class="s1" src="s4-2.jpg" style = "display:none;">
+                <img class="s1" src="s4-3.jpg" style = "display:none;">
+                <img class="s1" src="s4-4.jpg" style = "display:none;">
+                <img class="s1" src="s4-5.jpg" style = "display:none;">
                 
   	    	</div>
     	</section>
@@ -65,11 +82,12 @@
 
     	<section id="content3">
         	<div class="c3">
-                <h1><당신의 2020은 없습니다></h1>
-                <video src="2020.mp4" controls poster="2020s.png" width = "260px%";></video>
+                <h1><당신의 2021은 없습니다></h1>
+                <video src="2020.mp4" controls poster="2020s.png" width = "260px";></video>
                 <h1><100초만에 알아보는 엔유></h1>
-                <video src="100sec.mp4" controls poster="100s.png" width = "260px%";></video>
-                <h1><공청회 영상(넣어야함)></h1>
+                <video src="100sec.mp4" controls poster="100s.png" width = "260px";></video>
+                <h1><소견발표회 영상></h1>
+                <video src="333.mp4" controls poster="333.png" width = "260px";></video>
         	</div>
     	</section>
 
@@ -85,9 +103,7 @@
     <img id="poster" src="poster.png" alt="포스터" width="100%" ></a>
 
 	<footer>COPYRIGHT (c) 2020. [EN,YOU]. All rights reserved.</footer>
-<script>
 
-
-</script>
+    <script type="text/javascript" src="enyouprofile.js"></script>
 </body>
 </html>
